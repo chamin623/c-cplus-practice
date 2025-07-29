@@ -3,12 +3,48 @@
   "WorkspaceRootPath": "C:\\c\u002B\u002Bworkspace\\Classes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{48CF233B-16CE-434A-948D-3D61D675743B}|Classes\\Classes.vcxproj|C:\\c\u002B\u002Bworkspace\\Classes\\Classes\\constructorDog.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{48CF233B-16CE-434A-948D-3D61D675743B}|Classes\\Classes.vcxproj|solutionrelative:Classes\\constructorDog.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{48CF233B-16CE-434A-948D-3D61D675743B}|Classes\\Classes.vcxproj|C:\\c\u002B\u002Bworkspace\\Classes\\Classes\\classMember.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{48CF233B-16CE-434A-948D-3D61D675743B}|Classes\\Classes.vcxproj|solutionrelative:Classes\\classMember.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48CF233B-16CE-434A-948D-3D61D675743B}|Classes\\Classes.vcxproj|C:\\c\u002B\u002Bworkspace\\Classes\\Classes\\CarMain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{48CF233B-16CE-434A-948D-3D61D675743B}|Classes\\Classes.vcxproj|solutionrelative:Classes\\CarMain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48CF233B-16CE-434A-948D-3D61D675743B}|Classes\\Classes.vcxproj|C:\\c\u002B\u002Bworkspace\\Classes\\Classes\\classBirthDay.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{48CF233B-16CE-434A-948D-3D61D675743B}|Classes\\Classes.vcxproj|solutionrelative:Classes\\classBirthDay.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48CF233B-16CE-434A-948D-3D61D675743B}|Classes\\Classes.vcxproj|C:\\c\u002B\u002Bworkspace\\Classes\\Classes\\Car.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{48CF233B-16CE-434A-948D-3D61D675743B}|Classes\\Classes.vcxproj|solutionrelative:Classes\\Car.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48CF233B-16CE-434A-948D-3D61D675743B}|Classes\\Classes.vcxproj|C:\\c\u002B\u002Bworkspace\\Classes\\Classes\\Car.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{48CF233B-16CE-434A-948D-3D61D675743B}|Classes\\Classes.vcxproj|solutionrelative:Classes\\Car.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48CF233B-16CE-434A-948D-3D61D675743B}|Classes\\Classes.vcxproj|C:\\c\u002B\u002Bworkspace\\Classes\\Classes\\classDog2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{48CF233B-16CE-434A-948D-3D61D675743B}|Classes\\Classes.vcxproj|solutionrelative:Classes\\classDog2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{48CF233B-16CE-434A-948D-3D61D675743B}|Classes\\Classes.vcxproj|C:\\c\u002B\u002Bworkspace\\Classes\\Classes\\classDog.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{48CF233B-16CE-434A-948D-3D61D675743B}|Classes\\Classes.vcxproj|solutionrelative:Classes\\classDog.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48CF233B-16CE-434A-948D-3D61D675743B}|Classes\\Classes.vcxproj|C:\\c\u002B\u002Bworkspace\\Classes\\Classes\\classDog3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{48CF233B-16CE-434A-948D-3D61D675743B}|Classes\\Classes.vcxproj|solutionrelative:Classes\\classDog3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48CF233B-16CE-434A-948D-3D61D675743B}|Classes\\Classes.vcxproj|C:\\c\u002B\u002Bworkspace\\Classes\\Classes\\DogMain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{48CF233B-16CE-434A-948D-3D61D675743B}|Classes\\Classes.vcxproj|solutionrelative:Classes\\DogMain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48CF233B-16CE-434A-948D-3D61D675743B}|Classes\\Classes.vcxproj|C:\\c\u002B\u002Bworkspace\\Classes\\Classes\\Dog.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{48CF233B-16CE-434A-948D-3D61D675743B}|Classes\\Classes.vcxproj|solutionrelative:Classes\\Dog.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48CF233B-16CE-434A-948D-3D61D675743B}|Classes\\Classes.vcxproj|C:\\c\u002B\u002Bworkspace\\Classes\\Classes\\Dog.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{48CF233B-16CE-434A-948D-3D61D675743B}|Classes\\Classes.vcxproj|solutionrelative:Classes\\Dog.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +54,86 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "classMember.cpp",
+              "DocumentMoniker": "C:\\c\u002B\u002Bworkspace\\Classes\\Classes\\classMember.cpp",
+              "RelativeDocumentMoniker": "Classes\\classMember.cpp",
+              "ToolTip": "C:\\c\u002B\u002Bworkspace\\Classes\\Classes\\classMember.cpp",
+              "RelativeToolTip": "Classes\\classMember.cpp",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAACkAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-29T08:30:26.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CarMain.cpp",
+              "DocumentMoniker": "C:\\c\u002B\u002Bworkspace\\Classes\\Classes\\CarMain.cpp",
+              "RelativeDocumentMoniker": "Classes\\CarMain.cpp",
+              "ToolTip": "C:\\c\u002B\u002Bworkspace\\Classes\\Classes\\CarMain.cpp",
+              "RelativeToolTip": "Classes\\CarMain.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-29T08:19:58.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Car.cpp",
+              "DocumentMoniker": "C:\\c\u002B\u002Bworkspace\\Classes\\Classes\\Car.cpp",
+              "RelativeDocumentMoniker": "Classes\\Car.cpp",
+              "ToolTip": "C:\\c\u002B\u002Bworkspace\\Classes\\Classes\\Car.cpp",
+              "RelativeToolTip": "Classes\\Car.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-29T08:16:16.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Car.h",
+              "DocumentMoniker": "C:\\c\u002B\u002Bworkspace\\Classes\\Classes\\Car.h",
+              "RelativeDocumentMoniker": "Classes\\Car.h",
+              "ToolTip": "C:\\c\u002B\u002Bworkspace\\Classes\\Classes\\Car.h",
+              "RelativeToolTip": "Classes\\Car.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-07-29T08:13:40.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "classBirthDay.cpp",
+              "DocumentMoniker": "C:\\c\u002B\u002Bworkspace\\Classes\\Classes\\classBirthDay.cpp",
+              "RelativeDocumentMoniker": "Classes\\classBirthDay.cpp",
+              "ToolTip": "C:\\c\u002B\u002Bworkspace\\Classes\\Classes\\classBirthDay.cpp",
+              "RelativeToolTip": "Classes\\classBirthDay.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-29T08:05:14.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "classDog2.cpp",
+              "DocumentMoniker": "C:\\c\u002B\u002Bworkspace\\Classes\\Classes\\classDog2.cpp",
+              "RelativeDocumentMoniker": "Classes\\classDog2.cpp",
+              "ToolTip": "C:\\c\u002B\u002Bworkspace\\Classes\\Classes\\classDog2.cpp",
+              "RelativeToolTip": "Classes\\classDog2.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-29T08:01:53.31Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
@@ -30,26 +144,65 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "constructorDog.cpp",
-              "DocumentMoniker": "C:\\c\u002B\u002Bworkspace\\Classes\\Classes\\constructorDog.cpp",
-              "RelativeDocumentMoniker": "Classes\\constructorDog.cpp",
-              "ToolTip": "C:\\c\u002B\u002Bworkspace\\Classes\\Classes\\constructorDog.cpp",
-              "RelativeToolTip": "Classes\\constructorDog.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAATAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "DogMain.cpp",
+              "DocumentMoniker": "C:\\c\u002B\u002Bworkspace\\Classes\\Classes\\DogMain.cpp",
+              "RelativeDocumentMoniker": "Classes\\DogMain.cpp",
+              "ToolTip": "C:\\c\u002B\u002Bworkspace\\Classes\\Classes\\DogMain.cpp",
+              "RelativeToolTip": "Classes\\DogMain.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-07-28T08:24:07.089Z",
+              "WhenOpened": "2025-07-29T07:43:30.526Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
+              "Title": "Dog.cpp",
+              "DocumentMoniker": "C:\\c\u002B\u002Bworkspace\\Classes\\Classes\\Dog.cpp",
+              "RelativeDocumentMoniker": "Classes\\Dog.cpp",
+              "ToolTip": "C:\\c\u002B\u002Bworkspace\\Classes\\Classes\\Dog.cpp",
+              "RelativeToolTip": "Classes\\Dog.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-29T07:38:55.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Dog.h",
+              "DocumentMoniker": "C:\\c\u002B\u002Bworkspace\\Classes\\Classes\\Dog.h",
+              "RelativeDocumentMoniker": "Classes\\Dog.h",
+              "ToolTip": "C:\\c\u002B\u002Bworkspace\\Classes\\Classes\\Dog.h",
+              "RelativeToolTip": "Classes\\Dog.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-07-29T07:35:13.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "classDog3.cpp",
+              "DocumentMoniker": "C:\\c\u002B\u002Bworkspace\\Classes\\Classes\\classDog3.cpp",
+              "RelativeDocumentMoniker": "Classes\\classDog3.cpp",
+              "ToolTip": "C:\\c\u002B\u002Bworkspace\\Classes\\Classes\\classDog3.cpp",
+              "RelativeToolTip": "Classes\\classDog3.cpp",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-29T07:24:15.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "classDog.cpp",
               "DocumentMoniker": "C:\\c\u002B\u002Bworkspace\\Classes\\Classes\\classDog.cpp",
               "RelativeDocumentMoniker": "Classes\\classDog.cpp",
               "ToolTip": "C:\\c\u002B\u002Bworkspace\\Classes\\Classes\\classDog.cpp",
               "RelativeToolTip": "Classes\\classDog.cpp",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAIwCkAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAIwCkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-07-28T08:10:10.635Z",
               "EditorCaption": ""
