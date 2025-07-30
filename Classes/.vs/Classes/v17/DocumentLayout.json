@@ -54,8 +54,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -64,7 +72,7 @@
               "RelativeDocumentMoniker": "Classes\\classMember.cpp",
               "ToolTip": "C:\\c\u002B\u002Bworkspace\\Classes\\Classes\\classMember.cpp",
               "RelativeToolTip": "Classes\\classMember.cpp",
-              "ViewState": "AgIAABcAAAAAAAAAAAAAACkAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAABcAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-07-29T08:30:26.866Z",
               "EditorCaption": ""
@@ -79,8 +87,7 @@
               "RelativeToolTip": "Classes\\CarMain.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-07-29T08:19:58.847Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-29T08:19:58.847Z"
             },
             {
               "$type": "Document",
@@ -92,8 +99,7 @@
               "RelativeToolTip": "Classes\\Car.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-07-29T08:16:16.378Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-29T08:16:16.378Z"
             },
             {
               "$type": "Document",
@@ -105,8 +111,7 @@
               "RelativeToolTip": "Classes\\Car.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-07-29T08:13:40.642Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-29T08:13:40.642Z"
             },
             {
               "$type": "Document",
@@ -118,8 +123,7 @@
               "RelativeToolTip": "Classes\\classBirthDay.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-07-29T08:05:14.112Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-29T08:05:14.112Z"
             },
             {
               "$type": "Document",
@@ -131,16 +135,7 @@
               "RelativeToolTip": "Classes\\classDog2.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-07-29T08:01:53.31Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "WhenOpened": "2025-07-29T08:01:53.31Z"
             },
             {
               "$type": "Document",
@@ -152,8 +147,7 @@
               "RelativeToolTip": "Classes\\DogMain.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-07-29T07:43:30.526Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-29T07:43:30.526Z"
             },
             {
               "$type": "Document",
@@ -165,8 +159,7 @@
               "RelativeToolTip": "Classes\\Dog.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-07-29T07:38:55.264Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-29T07:38:55.264Z"
             },
             {
               "$type": "Document",
@@ -178,8 +171,7 @@
               "RelativeToolTip": "Classes\\Dog.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-07-29T07:35:13.967Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-29T07:35:13.967Z"
             },
             {
               "$type": "Document",
@@ -191,8 +183,7 @@
               "RelativeToolTip": "Classes\\classDog3.cpp",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-07-29T07:24:15.833Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-29T07:24:15.833Z"
             },
             {
               "$type": "Document",
@@ -204,8 +195,7 @@
               "RelativeToolTip": "Classes\\classDog.cpp",
               "ViewState": "AgIAAAwAAAAAAAAAAAAIwCkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-07-28T08:10:10.635Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-28T08:10:10.635Z"
             }
           ]
         }

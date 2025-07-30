@@ -21,7 +21,7 @@ Member::Member(string id, string password) {
 }
 
 string Member::getId() {
-	return id; //Ãâ·ÂÀº this ¾È¾¸
+	return id;
 }
 string Member::getPassword() {
 	return password;
