@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\c\u002B\u002Bworkspace\\Basic\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6DC9C5B5-43B9-4FF1-9EEE-C0776829A6E7}|Basic\\Basic.vcxproj|C:\\c\u002B\u002Bworkspace\\Basic\\Basic\\coupon.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6DC9C5B5-43B9-4FF1-9EEE-C0776829A6E7}|Basic\\Basic.vcxproj|solutionrelative:Basic\\coupon.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6DC9C5B5-43B9-4FF1-9EEE-C0776829A6E7}|Basic\\Basic.vcxproj|C:\\c\u002B\u002Bworkspace\\Basic\\Basic\\stringEx.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{6DC9C5B5-43B9-4FF1-9EEE-C0776829A6E7}|Basic\\Basic.vcxproj|solutionrelative:Basic\\stringEx.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DC9C5B5-43B9-4FF1-9EEE-C0776829A6E7}|Basic\\Basic.vcxproj|C:\\c\u002B\u002Bworkspace\\Basic\\Basic\\coupon.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6DC9C5B5-43B9-4FF1-9EEE-C0776829A6E7}|Basic\\Basic.vcxproj|solutionrelative:Basic\\coupon.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6DC9C5B5-43B9-4FF1-9EEE-C0776829A6E7}|Basic\\Basic.vcxproj|C:\\c\u002B\u002Bworkspace\\Basic\\Basic\\ctimeEx.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,7 +38,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "coupon.cpp",
               "DocumentMoniker": "C:\\c\u002B\u002Bworkspace\\Basic\\Basic\\coupon.cpp",
               "RelativeDocumentMoniker": "Basic\\coupon.cpp",
@@ -51,7 +51,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "stringEx.cpp",
               "DocumentMoniker": "C:\\c\u002B\u002Bworkspace\\Basic\\Basic\\stringEx.cpp",
               "RelativeDocumentMoniker": "Basic\\stringEx.cpp",
@@ -72,8 +72,7 @@
               "RelativeToolTip": "Basic\\ctimeEx.cpp",
               "ViewState": "AgIAABgAAAAAAAAAAAAAADUAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-07-25T07:16:02.422Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-25T07:16:02.422Z"
             },
             {
               "$type": "Document",

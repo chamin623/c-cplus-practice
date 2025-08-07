@@ -1,4 +1,4 @@
-#include "Subject.h"
+#include "Subject.H"
 
 void Subject::setSubjectName(string subjectName) {
 	this->subjectName = subjectName;

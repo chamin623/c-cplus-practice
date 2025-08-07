@@ -3,7 +3,7 @@ using namespace std;
 #include "Bus.h"
 
 //생성자 - 초기화 목록
-Bus::Bus(int busNumber, int FEE = 1500) : busNumber(busNumber), 
+Bus::Bus(int busNumber, int FEE) : busNumber(busNumber), 
 		passenger(0), money(0), FEE(FEE) {}
 
 //함수 구현
@@ -18,6 +18,6 @@ int Bus::getFEE() {
 
 void Bus::displayInfo() {
 	cout << busNumber << "번 버스: "
-		<< "수입: " << money << "원, 승객 "
-		<< passenger << " 명\n";
+		<< "수입 " << money << "원, 승객 "
+		<< passenger << "명\n";
 }
