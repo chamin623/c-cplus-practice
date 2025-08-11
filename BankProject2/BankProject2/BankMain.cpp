@@ -3,91 +3,91 @@
 #include "BankAccount.h"
 using namespace std;
 
-vector<BankAccount> accounts; //°èÁÂ ÀúÀå º¤ÅÍ »ı¼º
-int nextAccountNumber = 1000; //ÇöÀç °èÁÂ¹øÈ£(°èÁÂ¼ö)
+vector<BankAccount> accounts; //ê³„ì¢Œ ì €ì¥ ë²¡í„° ìƒì„±
+int nextAccountNumber = 1000; //í˜„ì¬ ê³„ì¢Œë²ˆí˜¸(ê³„ì¢Œìˆ˜)
 
-//°èÁÂ »ı¼º
+//ê³„ì¢Œ ìƒì„±
 void createAccount() {
 	string name;
 	cin.ignore();
-	cout << "°èÁÂÁÖ¸¦ ÀÔ·ÂÇÏ¼¼¿ä: ";
+	cout << "ê³„ì¢Œì£¼ë¥¼ ì…ë ¥í•˜ì„¸ìš”: ";
 	getline(cin, name);
 
-	//½Å±Ô °èÁÂ »ı¼º
+	//ì‹ ê·œ ê³„ì¢Œ ìƒì„±
 	BankAccount newAccount(nextAccountNumber, name);
 	accounts.push_back(newAccount);
-	cout << "°èÁÂ°¡ ¼º°øÀûÀ¸·Î »ı¼ºµÇ¾ú½À´Ï´Ù. (°èÁÂ¹øÈ£: " << nextAccountNumber << ")\n";
-	nextAccountNumber++; //´ÙÀ½ °èÁÂ·Î Áõ°¡
+	cout << "ê³„ì¢Œê°€ ì„±ê³µì ìœ¼ë¡œ ìƒì„±ë˜ì—ˆìŠµë‹ˆë‹¤. (ê³„ì¢Œë²ˆí˜¸: " << nextAccountNumber << ")\n";
+	nextAccountNumber++; //ë‹¤ìŒ ê³„ì¢Œë¡œ ì¦ê°€
 }
 
-//°èÁÂ °Ë»ö
+//ê³„ì¢Œ ê²€ìƒ‰
 BankAccount* searchAccount(int accNum) {
 	for (auto& account : accounts) {
 		if (account.getAccountNumber() == accNum) {
-			return &account; //°èÁÂ ÁÖ¼Ò·Î ¹İÈ¯
+			return &account; //ê³„ì¢Œ ì£¼ì†Œë¡œ ë°˜í™˜
 		}
 	}
 	return nullptr;
 }
 
-//¿¹±İ ±â´É
+//ì˜ˆê¸ˆ ê¸°ëŠ¥
 void deposit() {
-	int accNum; //½ÇÇàÈ­¸é¿¡¼­ ÀÔ·Â¹ŞÀ» °èÁÂ ¹øÈ£
+	int accNum; //ì‹¤í–‰í™”ë©´ì—ì„œ ì…ë ¥ë°›ì„ ê³„ì¢Œ ë²ˆí˜¸
 	int amount;
 
-	cout << "ÀÔ±İÇÒ °èÁÂ¹øÈ£¸¦ ÀÔ·ÂÇÏ¼¼¿ä: ";
+	cout << "ì…ê¸ˆí•  ê³„ì¢Œë²ˆí˜¸ë¥¼ ì…ë ¥í•˜ì„¸ìš”: ";
 	cin >> accNum;
 
 	BankAccount* account = searchAccount(accNum);
 	if (account) {
-		cout << "ÀÔ±İÇÒ ±İ¾×À» ÀÔ·ÂÇÏ¼¼¿ä: ";
+		cout << "ì…ê¸ˆí•  ê¸ˆì•¡ì„ ì…ë ¥í•˜ì„¸ìš”: ";
 		cin >> amount;
 
 		if (cin.fail()) {
 			cin.clear();
 			cin.ignore(1000, '\n');
-			cout << "¼ıÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä.\n";
+			cout << "ìˆ«ìë¥¼ ì…ë ¥í•˜ì„¸ìš”.\n";
 			return;
 		}
-		account->deposit(amount); //¿¹±İ ±â´É È£Ãâ
+		account->deposit(amount); //ì˜ˆê¸ˆ ê¸°ëŠ¥ í˜¸ì¶œ
 	}
 	else {
-		cout << "°èÁÂ¹øÈ£¸¦ Ã£À» ¼ö ¾ø½À´Ï´Ù.\n";
+		cout << "ê³„ì¢Œë²ˆí˜¸ë¥¼ ì°¾ì„ ìˆ˜ ì—†ìŠµë‹ˆë‹¤.\n";
 	}
 }
 
-//Ãâ±İ ±â´É
+//ì¶œê¸ˆ ê¸°ëŠ¥
 void withdraw() {
-	int accNum; //½ÇÇàÈ­¸é¿¡¼­ ÀÔ·Â¹ŞÀ» °èÁÂ ¹øÈ£
+	int accNum; //ì‹¤í–‰í™”ë©´ì—ì„œ ì…ë ¥ë°›ì„ ê³„ì¢Œ ë²ˆí˜¸
 	int amount;
 
-	cout << "Ãâ±İÇÒ °èÁÂ¹øÈ£¸¦ ÀÔ·ÂÇÏ¼¼¿ä: ";
+	cout << "ì¶œê¸ˆí•  ê³„ì¢Œë²ˆí˜¸ë¥¼ ì…ë ¥í•˜ì„¸ìš”: ";
 	cin >> accNum;
 
 	BankAccount* account = searchAccount(accNum);
 	if (account) {
-		cout << "Ãâ±İÇÒ ±İ¾×À» ÀÔ·ÂÇÏ¼¼¿ä: ";
+		cout << "ì¶œê¸ˆí•  ê¸ˆì•¡ì„ ì…ë ¥í•˜ì„¸ìš”: ";
 		cin >> amount;
 
 		if (cin.fail()) {
 			cin.clear();
 			cin.ignore(1000, '\n');
-			cout << "¼ıÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä.\n";
+			cout << "ìˆ«ìë¥¼ ì…ë ¥í•˜ì„¸ìš”.\n";
 			return;
 		}
-		account->withdraw(amount); //Ãâ±İ ±â´É È£Ãâ
+		account->withdraw(amount); //ì¶œê¸ˆ ê¸°ëŠ¥ í˜¸ì¶œ
 	}
 	else {
-		cout << "°èÁÂ¹øÈ£¸¦ Ã£À» ¼ö ¾ø½À´Ï´Ù.\n";
+		cout << "ê³„ì¢Œë²ˆí˜¸ë¥¼ ì°¾ì„ ìˆ˜ ì—†ìŠµë‹ˆë‹¤.\n";
 	}
 
 }
 
-//°èÁÂ Á¤º¸ Ãâ·Â
+//ê³„ì¢Œ ì •ë³´ ì¶œë ¥
 void displayAccount() {
-	int accNum; //½ÇÇàÈ­¸é¿¡¼­ ÀÔ·Â¹ŞÀ» °èÁÂ ¹øÈ£
+	int accNum; //ì‹¤í–‰í™”ë©´ì—ì„œ ì…ë ¥ë°›ì„ ê³„ì¢Œ ë²ˆí˜¸
 
-	cout << "Á¶È¸ÇÒ °èÁÂ¹øÈ£¸¦ ÀÔ·ÂÇÏ¼¼¿ä: ";
+	cout << "ì¡°íšŒí•  ê³„ì¢Œë²ˆí˜¸ë¥¼ ì…ë ¥í•˜ì„¸ìš”: ";
 	cin >> accNum;
 
 	BankAccount* account = searchAccount(accNum);
@@ -97,7 +97,7 @@ void displayAccount() {
 	}
 
 	else {
-		cout << "°èÁÂ¹øÈ£¸¦ Ã£À» ¼ö ¾ø½À´Ï´Ù.\n";
+		cout << "ê³„ì¢Œë²ˆí˜¸ë¥¼ ì°¾ì„ ìˆ˜ ì—†ìŠµë‹ˆë‹¤.\n";
 	}
 }
 
@@ -108,9 +108,9 @@ int main()
 
 	while (run) {
 		cout << "===================================================\n";
-		cout << "1.°èÁÂ»ı¼º | 2.¿¹±İ | 3.Ãâ±İ | 4.°èÁÂ°Ë»ö | 5.Á¾·á\n";
+		cout << "1.ê³„ì¢Œìƒì„± | 2.ì˜ˆê¸ˆ | 3.ì¶œê¸ˆ | 4.ê³„ì¢Œê²€ìƒ‰ | 5.ì¢…ë£Œ\n";
 		cout << "===================================================\n";
-		cout << "¼±ÅÃ> ";
+		cout << "ì„ íƒ> ";
 		cin >> choice;
 
 		switch (choice) {
@@ -122,18 +122,19 @@ int main()
 			break;
 		case 3:
 			withdraw();
+			break;
 		case 4:
 			displayAccount();
 			break;
 		case 5:
-			cout << "ÇÁ·Î±×·¥À» Á¾·áÇÕ´Ï´Ù.\n";
+			cout << "í”„ë¡œê·¸ë¨ì„ ì¢…ë£Œí•©ë‹ˆë‹¤.\n";
 			run = false;
 			break;
 		default:
-			cout << "Áö¿øÇÏÁö ¾Ê´Â ±â´ÉÀÔ´Ï´Ù. ´Ù½Ã ÀÔ·ÂÇÏ¼¼¿ä.\n";
+			cout << "ì§€ì›í•˜ì§€ ì•ŠëŠ” ê¸°ëŠ¥ì…ë‹ˆë‹¤. ë‹¤ì‹œ ì…ë ¥í•˜ì„¸ìš”.\n";
 			break;
 		}
-	}//while() ´İ±â
+	}//while() ë‹«ê¸°
 
 	system("pause");
 	return 0;
